@@ -18,6 +18,10 @@ public class Library {
 		{
 			return db.getFictionBooks();
 		}
+		if(category.equals("Non-Fiction"))
+		{
+			return db.getFictionBooks();
+		}
 		else
 			return null;
 	}
