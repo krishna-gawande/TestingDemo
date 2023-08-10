@@ -8,6 +8,7 @@ public class Book {
 		super();
 		this.title = title;
 		this.category = category;
+		//equall
 	}
 	
 	public int getIsbn()
